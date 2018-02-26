@@ -1,7 +1,4 @@
 #服务器端口
-server:
-  port: 7100
-
 
   redis:
     database: 0      # Redis数据库索引（默认为0）
