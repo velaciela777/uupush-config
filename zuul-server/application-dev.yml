@@ -1,10 +1,11 @@
 server:
-  port: 8781
+  port: 80
 zuul:
   routes:
-    uupush-content: /uupush-content/**
-    uupush-iterm: /uupush-iterm/**
-    uupush-order: /uupush-order/**
-    uupush-sso: /uupush-sso/**
-    uupush-solr: /uupush-solr/**
-    uupush-user: /uupush-user/**
+    uupush-content: /content/**
+    uupush-iterm: /iterm/**
+    uupush-order: /order/**
+    uupush-sso: /sso/**
+    uupush-solr: /solr/**
+    uupush-user: /user/**
+    uupush-manager: /manager/**
