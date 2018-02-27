@@ -3,7 +3,7 @@ server:
 zuul:
   routes:
     uupush-content: /content/**
-    uupush-iterm: /iterm/**
+    uupush-item: /item/**
     uupush-order: /order/**
     uupush-sso: /sso/**
     uupush-solr: /solr/**
