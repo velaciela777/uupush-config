@@ -7,5 +7,5 @@ zuul:
     uupush-order: /order/**
     uupush-sso: /sso/**
     uupush-solr: /solr/**
-    uupush-user: /user/**
+    uupush-member: /member/**
     uupush-manager: /manager/**
