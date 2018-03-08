@@ -32,7 +32,7 @@ spring:
       max-file-size: 10Mb
       max-request-size: 10Mb
 
-redis:
+  redis:
     database: 0      # Redis数据库索引（默认为0）
     host: 39.107.80.193  # Redis服务器地址
     port: 6379       # Redis服务器连接端口
