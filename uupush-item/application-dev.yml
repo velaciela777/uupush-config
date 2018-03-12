@@ -46,6 +46,7 @@ spring:
     password: admin
     publisher-confirms: true
     virtual-host: /
+
 logging:
   level:
     ink.hcode.cloud.springcloudconsumerfeign.feign.MyFeignClient: DEBUG  
