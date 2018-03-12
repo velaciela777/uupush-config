@@ -30,7 +30,7 @@ spring:
       max-request-size: 10Mb
   redis:
     database: 0
-    host: 39.107.80.193
+    host: 45.76.219.241
     port: 6379
     password:
     timeout: 0
