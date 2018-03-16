@@ -34,7 +34,7 @@ spring:
 
   redis:
     database: 0      # Redis数据库索引（默认为0）
-    host: 39.107.80.193  # Redis服务器地址
+    host: 192.168.1.5  # Redis服务器地址
     port: 6379       # Redis服务器连接端口
     password:        # Redis服务器连接密码（默认为空）
     timeout: 0       # 连接超时时间（毫秒）
@@ -52,22 +52,11 @@ spring:
     publisher-confirms: true
     virtual-host: /       
             
-logging:
-  level:
-    ink.hcode.cloud.springcloudconsumerfeign.feign.MyFeignClient: DEBUG  
 feign:
   hystrix:
     enabled: true
-  compression:
-    request:
-      enabled: true
-      mime-types: text/xml,application/xml,application/json
-      min-request-size: 2048
-    response:
-      enabled: true  
+
+eureka:
   client:
-    config:
-      default:
-        connectTimeout: 5000
-        readTimeout: 5000
-        loggerLevel: basic      
+    healthcheck:
+      enabled: true   
