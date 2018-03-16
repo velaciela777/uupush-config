@@ -53,3 +53,8 @@ spring:
 feign:
   hystrix:
     enabled: true
+
+eureka:
+  client:
+    healthcheck:
+      enabled: true
