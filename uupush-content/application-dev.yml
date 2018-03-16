@@ -50,9 +50,6 @@ spring:
     password: admin
     publisher-confirms: true
 
-logging:
-  level:
-    ink.hcode.cloud.springcloudconsumerfeign.feign.MyFeignClient: DEBUG  
 feign:
   hystrix:
     enabled: true
